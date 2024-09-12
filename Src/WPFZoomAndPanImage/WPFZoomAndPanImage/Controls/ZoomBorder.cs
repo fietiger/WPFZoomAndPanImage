@@ -10,6 +10,7 @@ using System.Windows;
 
 namespace WPFZoomAndPanImage.Controls
 {
+    // 以下代码取自：https://stackoverflow.com/questions/741956/pan-zoom-image
     public class ZoomBorder : Border
     {
         private UIElement child = null;
